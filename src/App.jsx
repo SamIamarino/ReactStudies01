@@ -23,6 +23,7 @@ function App() {
     </div>
     );
   }
+  
 
   function handleSelect(selectedButton){
     //selectedButton => 'components','jsx','props','state'
@@ -64,6 +65,7 @@ function App() {
           </menu>
           {tabContent}
         </section>
+
       </main>
     </div>
   );

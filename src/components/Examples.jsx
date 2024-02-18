@@ -31,9 +31,11 @@ function handleSelect(selectedButton){
 
     return(
         <Section id="examples" title="Examples">
-        <Tabs buttons={
+        <Tabs 
+        
+        buttons={
           <>
-          <TabButton 
+            <TabButton 
             isSelected={selectedTopic === 'components'} 
             onClick={() => handleSelect('components')}>
               Components
